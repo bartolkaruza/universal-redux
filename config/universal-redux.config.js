@@ -45,6 +45,14 @@ module.exports = (projectRoot, sourceRoot) => {
       // Expects: Number
       */
       // maxAge: 0
+
+      /*
+      // This option specifies the web framework that the univers-redux
+      // middleware will be compatible with for server side rendering
+      // options: 'express' || 'koa'
+      // Expects: String
+       */
+      webFramework: 'express'
     },
 
     /*
